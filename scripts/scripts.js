@@ -32,7 +32,7 @@ $( document ).ready(function() {
           BV.getPlayer().on("ended", function(){
             var player =   BV.getPlayer();
             player.pause();
-            BV.show('video/bgPoster.png');
+            //BV.show('video/bgPoster.png');
 
             $(".hero").fadeIn({queue: false, duration: 'slow'});
             $(".hero").animate({ opacity: "1" }, 'slow');
